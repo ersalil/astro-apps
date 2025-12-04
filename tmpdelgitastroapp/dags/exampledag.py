@@ -31,9 +31,9 @@ import requests
     schedule="@daily",
     doc_md=__doc__,
     default_args={"owner": "Astro", "retries": 3},
-    tags=["example"],
+    tags=["salil"],
 )
-def example_astronauts():
+def salil_astronauts():
     # Define tasks
     @task(
         # Define an asset outlet for the task. This can be used to schedule downstream DAGs when this task has run.
@@ -95,4 +95,4 @@ def example_astronauts():
 
 
 # Instantiate the DAG
-example_astronauts()
+salil_astronauts()
